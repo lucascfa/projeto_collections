@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b4c6697-a820-4174-ab32-e87feb65bb67" name="Changes" comment="Adicionando lista de tarefas">
-      <change afterPath="$PROJECT_DIR$/src/CatalogoLivro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparatorAlturaPessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OrdenacaoPessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pessoa.java" afterDir="false" />
+    <list default="true" id="7b4c6697-a820-4174-ab32-e87feb65bb67" name="Changes" comment="Finalizando aula de lists">
+      <change afterPath="$PROJECT_DIR$/src/Agenda/AgendaContatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Agenda/Contato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/set/ConjuntoConvidados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/set/Convidado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListaTarefas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaTarefas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CatalogoLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pesquisa/CatalogoLivro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparatorAlturaPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ordenacao/ComparatorAlturaPessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaTarefas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperacoesBasicas/ListaTarefas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pesquisa/Livro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrdenacaoPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ordenacao/OrdenacaoPessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ordenacao/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperacoesBasicas/Tarefa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/lucka/IdeaProjects/projeto_collections/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/lucka/IdeaProjects/projeto_collections/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.splitter.proportion": "0.26680243"
   }
 }]]></component>
   <component name="RunManager">
@@ -106,21 +113,30 @@
       <option name="project" value="LOCAL" />
       <updated>1716659618125</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finalizando aula de lists">
+      <option name="closed" value="true" />
+      <created>1716669710181</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716669710181</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primeiro commit" />
     <MESSAGE value="Adicionando lista de tarefas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando lista de tarefas" />
+    <MESSAGE value="Finalizando aula de lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizando aula de lists" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="5" />
+          <line>12</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

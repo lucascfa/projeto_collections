@@ -1,3 +1,5 @@
+package Ordenacao;
+
 import java.util.Comparator;
 
 public class ComparatorAlturaPessoa implements Comparator<Pessoa> {

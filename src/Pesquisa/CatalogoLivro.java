@@ -1,3 +1,5 @@
+package Pesquisa;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -37,7 +39,7 @@ public class CatalogoLivro {
         }
         return livrosPorAno;
     }
-    public Livro pesquisarPorTitulo( String titulo){
+    public Livro pesquisarPorTitulo(String titulo){
         Livro livroPorTitulo = null;
         if(!catalogo.isEmpty()){
             for(Livro l : catalogo){

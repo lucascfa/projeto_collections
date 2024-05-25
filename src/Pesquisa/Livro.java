@@ -1,3 +1,5 @@
+package Pesquisa;
+
 public class Livro {
     private String nome;
     private int ano;
@@ -35,7 +37,7 @@ public class Livro {
 
     @Override
     public String toString() {
-        return "Livro{" +
+        return "Pesquisa.Livro{" +
                 "autor='" + autor + '\'' +
                 ", nome='" + nome + '\'' +
                 '}';
