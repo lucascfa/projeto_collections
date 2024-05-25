@@ -1,36 +1,25 @@
-import Agenda.AgendaContatos;
-import Ordenacao.OrdenacaoPessoa;
-import Ordenacao.Pessoa;
-import Pesquisa.CatalogoLivro;
-import Pesquisa.Livro;
-import set.ConjuntoConvidados;
 
-import java.util.ArrayList;
-import java.util.List;
+import Produtos.CadastroProdutos;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        AgendaContatos agenda = new AgendaContatos();
+        CadastroProdutos cadastroProdutos = new CadastroProdutos();
+        cadastroProdutos.adicionarProduto(1L, "Produto 5", 1.20, 50);
+        cadastroProdutos.adicionarProduto(2L, "Produto 2", 5.20, 100);
+        cadastroProdutos.adicionarProduto(3L, "Produto 3", 3.20, 20);
+        cadastroProdutos.adicionarProduto(3L, "Produto 4", 1.60, 50);
 
-        agenda.exibirContatos();
+        System.out.println(cadastroProdutos.produtoSet);
+        System.out.println("-----------------------------");
 
-        agenda.adicionarContato("Lucas",131241234);
-        agenda.adicionarContato("Lucas",1023234);
-        agenda.adicionarContato("Caylin",1312134);
-        agenda.adicionarContato("Camila",9883321);
-        agenda.adicionarContato("Maria",1003412);
-        agenda.adicionarContato("Jose",2343412);
+        System.out.println(cadastroProdutos.exibirProdutosPorpreco());
 
-        agenda.exibirContatos();
+        System.out.println("-----------------------------");
 
-        System.out.println("------------------------------------------");
-        System.out.println(agenda.pesquisarPorNome("Ma"));
-        System.out.println("------------------------------------------");
+        System.out.println(cadastroProdutos.exibirProdutosPorQuantidade());
 
-        System.out.println(agenda.atualizarNumeroContato("Caylin", 97422268));
-        System.out.println("------------------------------------------");
-        agenda.exibirContatos();
+        System.out.println(cadastroProdutos.exibirProdutosPorNome());
     }
 }

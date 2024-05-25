@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b4c6697-a820-4174-ab32-e87feb65bb67" name="Changes" comment="Finalizando aula de lists">
-      <change afterPath="$PROJECT_DIR$/src/Agenda/AgendaContatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Agenda/Contato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/ConjuntoConvidados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set/Convidado.java" afterDir="false" />
+    <list default="true" id="7b4c6697-a820-4174-ab32-e87feb65bb67" name="Changes" comment="Aula de Set Interface">
+      <change afterPath="$PROJECT_DIR$/src/Produtos/CadastroProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Produtos/ComparatorPorPreco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Produtos/ComparatorPorQuantidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Produtos/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CatalogoLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pesquisa/CatalogoLivro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparatorAlturaPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ordenacao/ComparatorAlturaPessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListaTarefas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperacoesBasicas/ListaTarefas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pesquisa/Livro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrdenacaoPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ordenacao/OrdenacaoPessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ordenacao/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperacoesBasicas/Tarefa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,24 +114,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716669710181</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finalizando aula de set, trabalhando com agenda.">
+      <option name="closed" value="true" />
+      <created>1716676908534</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716676908534</updated>
+    </task>
+    <task id="LOCAL-00006" summary="finalizando aula de set, trabalhando com agenda.">
+      <option name="closed" value="true" />
+      <created>1716676922610</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716676922610</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primeiro commit" />
     <MESSAGE value="Adicionando lista de tarefas" />
     <MESSAGE value="Finalizando aula de lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizando aula de lists" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="finalizando aula de set, trabalhando com agenda." />
+    <MESSAGE value="Aula de Set Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula de Set Interface" />
   </component>
 </project>
