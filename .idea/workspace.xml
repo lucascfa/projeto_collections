@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b4c6697-a820-4174-ab32-e87feb65bb67" name="Changes" comment="Aula de Set Interface">
-      <change afterPath="$PROJECT_DIR$/src/Produtos/CadastroProdutos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Produtos/ComparatorPorPreco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Produtos/ComparatorPorQuantidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Produtos/Produto.java" afterDir="false" />
+    <list default="true" id="7b4c6697-a820-4174-ab32-e87feb65bb67" name="Changes" comment="Aulas de Map. Agenda de contatos">
+      <change afterPath="$PROJECT_DIR$/src/Map/EstoqueProdutos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Produtos/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Produtos/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/lucka/IdeaProjects/projeto_collections/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "settings.editor.splitter.proportion": "0.26680243"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/lucka/IdeaProjects/projeto_collections/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.26680243&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -130,7 +128,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716676922610</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Aula de Set Interface">
+      <option name="closed" value="true" />
+      <created>1716679994112</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716679994112</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Aulas de Map. Agenda de contatos">
+      <option name="closed" value="true" />
+      <created>1717369489721</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717369489721</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -139,6 +153,18 @@
     <MESSAGE value="Finalizando aula de lists" />
     <MESSAGE value="finalizando aula de set, trabalhando com agenda." />
     <MESSAGE value="Aula de Set Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula de Set Interface" />
+    <MESSAGE value="Aulas de Map. Agenda de contatos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aulas de Map. Agenda de contatos" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

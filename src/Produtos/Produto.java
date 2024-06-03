@@ -7,7 +7,7 @@ public class Produto implements Comparable<Produto> {
     private String nome;
     private double preco;
     private int quantidade;
-    private long codigo;
+    private Long codigo;
 
     public Produto(String nome, double preco, int quantidade, long codigo) {
         this.nome = nome;
@@ -67,7 +67,6 @@ public class Produto implements Comparable<Produto> {
                 "nome = '" + nome + '\'' +
                 ", preco = " + preco +
                 ", quantidade = " + quantidade +
-                ", codigo = " + codigo +
                 '}';
     }
 
