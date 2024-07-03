@@ -7,6 +7,8 @@ import Produtos.Produto;
 
 import java.time.LocalDate;
 import java.time.Month;
+import java.util.ArrayList;
+import java.util.Optional;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -23,6 +25,20 @@ public class Main {
 
         agenda.obterProximoEvento();
 
+        Optional<String> valorOpcional = Optional.ofNullable("Lucas");
+        String palavra =  valorOpcional.orElse("Deu ruim.");
+        System.out.println(palavra);
+
+        ArrayList<String> lista_nomes = new ArrayList<>();
+        lista_nomes.add("Lucas");
+        lista_nomes.add("Lucas 2");
+        lista_nomes.add("CAylin");
+        lista_nomes.add("Teste");
+
+        lista_nomes.stream().forEach(nome -> {
+            String nome_atualizado = nome.concat(" concatenado");
+            System.out.println(nome_atualizado);
+        });
 
 
     }
